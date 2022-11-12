@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+.bottom-left > img{
+  width: 48px;
+  border-radius: 50%;
+}
+.trending-box img{
+  width: 48px;
+  border-radius: 50%;
+}

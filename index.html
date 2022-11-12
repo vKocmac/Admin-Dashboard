@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <title>Admin Dashboard</title>
 </head>
 
@@ -13,19 +16,23 @@
   <header>
 
     <div class="upper-left">
-      <input type="text" placeholder="Search..">
+      <img src="images/magnify.png" alt="search-icon">
+      <input type="text">
     </div>
 
     <div class="upper-right">
       <img src="images/bell-ring.png" alt="notifications">
-      <img src="" alt="admin-photo">
+      <img src="images/personal-photo.jpg" alt="admin-photo">
       <h3>Kocmac</h3>
     </div>
 
     <div class="bottom-left">
       <img src="images/personal-photo.jpg" alt="user-image">
-      <h4>Hi there</h4>
-      <h1>Kocmac</h1>
+      <div>
+        <h4>Hi there</h4>
+        <h1>Kocmac (@kocmac)</h1>
+      </div>
+
     </div>
 
     <div class="bottom-right">
@@ -37,96 +44,146 @@
   </header>
 
   <aside class="sidenav">
+    <div class="dashboard">
+      <img src="images/view-dashboard.png" alt="dashboard">
       <h1>Dashboard</h1>
       <ul class="main-sidebar">
-        <li>Home</li>
-        <li>Profile</li>
-        <li>Message</li>
-        <li>History</li>
-        <li>Task</li>
-        <li>Communities</li>
-      </ul>
+    </div>
 
-      <ul class="secondary-sidebar">
-        <li>Setting</li>
-        <li>Support</li>
-        <li>Privacy</li>
-      </ul>
+    <ul>
+      <li><img src="images/home.png" alt="">Home</li>
+      <li><img src="images/profile.png" alt="">Profile</li>
+      <li><img src="images/message.png" alt="">Message</li>
+      <li><img src="images/history.png" alt="">History</li>
+      <li><img src="images/tasks.png" alt="">Task</li>
+      <li><img src="images/community.png" alt="">Communities</li>
+    </ul>
+
+    <ul class="secondary-sidebar">
+      <li><img src="images/settings.png" alt="">Setting</li>
+      <li><img src="images/support.png" alt="">Support</li>
+      <li><img src="images/privacy.png" alt="">Privacy</li>
+    </ul>
   </aside>
+<nav>
 
-<main>
-  <div>
-    <h2>Your Projects</h2>
-  </div>
-        <div class="projects">
-          <div class="">
-            <h2>Super Cool Porjects</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div class="">
-            <h2>Less Cool Porjects</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div class="">
-            <h2>Impossible App</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div class="">
-            <h2>Easy Peasy App</h2>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div class="">
-            <h2>Add Blocker</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-          <div class="">
-            <h2>Money Maker</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<p>
-          </div>
+
+</nav>
+
+  <main>
+
+    <div class="projects">
+      <div>
+        <h2>Your Projects</h2>
+      </div>
+      <div class="project-box">
+        <h2>Super Cool Project</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="">
+          <img src="images/star.png" alt="star">
+          <img src="images/eye.png" alt="eye">
+          <img src="images/share.png" alt="share">
         </div>
-      </main>
+      </div>
+      <div class="project-box">
+        <h2>Less Cool Project</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="">
+          <img src="images/star.png" alt="star">
+          <img src="images/eye.png" alt="eye">
+          <img src="images/share.png" alt="share">
+        </div>
+      </div>
+      <div class="project-box">
+        <h2>Impossible App</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="">
+          <img src="images/star.png" alt="star">
+          <img src="images/eye.png" alt="eye">
+          <img src="images/share.png" alt="share">
+        </div>
+      </div>
+      <div class="project-box">
+        <h2>Easy Peasy App</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="">
+          <img src="images/star.png" alt="star">
+          <img src="images/eye.png" alt="eye">
+          <img src="images/share.png" alt="share">
+        </div>
+      </div>
+      <div class="project-box">
+        <h2>Add Blocker</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="">
+          <img src="images/star.png" alt="star">
+          <img src="images/eye.png" alt="eye">
+          <img src="images/share.png" alt="share">
+        </div>
+      </div>
+      <div class="project-box">
+        <h2>Money Maker</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="">
+          <img src="images/star.png" alt="star">
+          <img src="images/eye.png" alt="eye">
+          <img src="images/share.png" alt="share">
+        </div>
+      </div>
+    </div>
+    <section>
 
-<section>
-<div>
-  <h2>Announcements</h2>
-  <div>
-    <div class="site-maintenance">
-      <h3>Site Maintenance</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<p>
-    </div>
-    <div class="site-maintenance">
-      <h3>Updated Privacy Policy</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<p>
-    </div>
-    <div class="site-maintenance">
-      <h3>Community Share Day</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<p>
-    </div>
+          <div class="announcements">
+            <div>
+              <h2>Announcements</h2>
+              </div>
+              <div>
+            <div>
+              <h3>Site Maintenance</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p>
+            </div>
+            <div>
+              <h3>Updated Privacy Policy</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p>
+            </div>
+            <div>
+              <h3>Community Share Day</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p>
+            </div>
+          </div>
+      </div>
+      <div class="trending-section">
+        <div>
+          <h2>Trending</h2>
+        </div>
+          <div class="trending-box">
 
-  </div>
-</div>
-<div>
-  <h2>Trending</h2>
-  <div class="trending-box">
-    <div>
-      <img src="images/personal-photo.jpg" alt="">
-      <h3>@tegan</h3>
-    </div>
-    <div>
-      <img src="images/personal-photo.jpg" alt="">
-      <h3>@mongan</h3>
-    </div>
-    <div>
-      <img src="images/personal-photo.jpg" alt="">
-      <h3>@kendall</h3>
-    </div>
-    <div>
-      <img src="images/personal-photo.jpg" alt="">
-      <h3>@alex</h3>
-    </div>
-  </div>
-</div>
-</section>
+              <img src="images/1.jpg" alt="">
+              <h3>@tegan</h3>
+
+
+              <img src="images/2.jpg" alt="">
+              <h3>@mongan</h3>
+
+
+              <img src="images/3.jpg" alt="">
+              <h3>@kendall</h3>
+
+
+              <img src="images/4.jpg" alt="">
+              <h3>@alex</h3>
+
+          </div>
+      </div>
+
+
+    </section>
+
+  </main>
+
 </body>
 
 </html>

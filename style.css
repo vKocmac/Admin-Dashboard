@@ -163,9 +163,9 @@ h2{
   gap:20px;
   align-self: flex-end;
 }
-.bottom-left > img{
+.bottom-left > a{
   align-self: center;
-  margin-left: 20px;
+  margin-left: 35px;
 }
 .upper-left input{
   place-self: center stretch;
@@ -218,6 +218,8 @@ ul img{
 li{
   font-weight: 400;
   padding: 10px;
-
-
+}
+a{
+  text-decoration: none;
+  color: white;
 }

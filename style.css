@@ -55,11 +55,14 @@ button{
 .projects{
   grid-column: 1/3;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px;
-  gap:20px;
   margin-right: 20px;
   margin-bottom: 20px;
+}
+.project-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap:20px;
 }
 .project-box img{
   width: 2.8rem;
